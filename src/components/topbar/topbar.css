@@ -1,0 +1,80 @@
+ .top {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(214, 201, 201);
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topIcon {
+  
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+  background: #845d66;
+  color: #fff;
+  padding: 4px;
+  font-size: 20px;
+  border-radius: 22%;
+  margin: 0px 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+  
+}
+.topIcon:hover{
+  background: #fff;
+  color: #000000;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topListItem:hover{
+    color: gray;
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+ 
+}
+.topImg:hover{
+  border: 2px solid #917a7a;
+}
+
+.md{
+  margin-right: 14px;
+}
